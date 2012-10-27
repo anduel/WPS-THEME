@@ -1,0 +1,107 @@
+body { background-color: #f1f1f1 ; }
+#container { width: 1000px ; height: 1481px ; margin: auto ; background-color: #d7d7d7 ; }
+#header { width: 1000px ; height: 600px ; }
+#first-bar { width: 1000px ; height: 55px ; background-color: #111111 ; }
+#left-first-bar { margin: 13.5px auto 13.5px 78px ; width: 105px ; height: 28px ; position: absolute;  }
+#logo-home { width: 27px ; height: 28px ; background-image: url('images/home.png'); margin: 0 12px 0 0; float: left ; }
+#logo-network { width: 27px ; height: 27px ; background-image: url('images/network.png'); margin:0 12px 0 0 ; float:left ;}
+#logo-message { width: 27px ; height: 27px ; background-image: url('images/message.png');margin: 0 ; float: left ; }
+#right-first-bar { margin-left: 460px ; margin-top: 19px ; height: 18px ; width: 500px ; position: absolute ; }
+#left-rfb h2 { font-size: 18px ; font-family: sans-serif ; color: #888888 ;position: absolute; margin-top: -2px ; }
+#right-rfb h2 { font-size: 18px ; font-family: sans-serif; color: #ffffff ; position: absolute; margin: 0; margin-top: -2px ; }
+#left-rfb { position: absolute; height: 18px ;width: 320px ;}
+#right-rfb { position: absolute; height: 18px ; width: 180px ; margin-left: 320px  ;  }
+#header-container { width: 1000px ; height: 531px ; margin: 6px 0 6px 0 ; background-color: #fdfdfd ; position: relative; }
+#content-1 { width: 1000px ; height: 425px ; background-color: #111111 ; position: relative ; }
+#content-2 { width: 1000px ; height: 338px ; background-color: #000000 ;position: relative ; } 
+#footer { width: 1000px ;height: 121px ; background-color: #111111 ; position: relative ;} 
+#footer-container  { width: 600px ; height: 50px ; margin: 35.5px 200px 35.5px 200px ; position: absolute ; }
+#h3-footer-1 { font-size: 15px ; font-family: sans-serif ; color: #888888 ; margin-top: 2px ; margin-left: 105px ;  }
+#h3-footer-2 { font-size: 15px ; font-family: sans-serif ; color: #888888 ; margin-top: -6px ; margin-left: 152px ; }
+#h3-footer-1 a { color: #ffffff ; }
+#h3-footer-1 a:hover { color: #ad8080 ; }
+#h3-footer-2 a { color: #ffffff ; }
+#h3-footer-2 a:hover { color: #ad8080 ; }
+#menu-logo-container { width: 1000px ; height: 102px ; position: absolute ; }
+#logo { width: 283px ; height: 80px  ; background-image: url('images/logo.png') ; margin-top: 20px ; margin-left: 45px ; }
+#menu { width: 537px ; height: 21px ; float:right ; margin-right: 18px ; margin-top: -46px ; }
+#menu ul { list-style: none ; padding: 0 ; margin: 0 ; }
+#menu ul li { float: left; margin-left: 10px ; font-size: 18px ; font-family: sans-serif ; }
+#menu ul li a:link { text-decoration: none ; color: #4f4f4f ; }
+#menu ul li a:hover { color: #dfb5e5 ; }
+#menu ul li a:active { color: #e442fd ; }
+.other-menu-items { display: inline ; border-left: 2px solid ; padding-left: 0.3em ; }
+.menu-first-item { display: inline ; border-left: none ; padding-left: 0 ; }
+#right-header-container { width: 507px ; height: 375px ; background-image: url('images/hosts-logo.png') ; position: absolute ; margin-left: 450px ; margin-top: 125px ; }
+#left-header-container { width: 392px ; height: 431px ; position: absolute; margin-top: 100px ; margin-left: 50px ; }
+#top-left-header-container { width: 254px ; height: 194px ; position: absolute ; margin-top: 40px ; margin-left: 40px ; } 
+#top-left-header-container h1 { font-family: Myriad Pro ; font-size: 48px ; }
+#bottom-left-header-container { width: 341px ; height: 63px ; margin-top: 300px ; margin-left: 40px ;  }
+#bottom-left-header-container .first { font-family: Myriad Pro ; font-size: 20px ; color: #db00ff ;  }
+#bottom-left-header-container .second { font-family: Myriad Pro ; font-size: 20px ; color: #bababa ; margin-top: -16px ;}
+#left-content-1 { width: 303px ; height: 347px ; position: absolute ; margin-left: 44px ; margin-top: 44px ; border-right-style: solid ; border-right-color:#1d1d1d ;border-width: 1px ;  }
+#center-content-1 { width: 303px ; height: 347px ; position: absolute ; margin-left: 349px ; margin-top: 44px ; border-right-style: solid ; border-right-color:#1d1d1d ;border-width: 1px ; }
+#right-content-1 { width: 303px ; height: 347px ; position: absolute ; margin-left: 652px ; margin-top: 44px ; }
+#top-left-content-1 { width: 303px ; height: 85px ; position: absolute ; margin-left: 0 ; margin-top: 0 ; } 
+#center-left-content-1 { width: 303px ; height: 180px ; position: absolute ; margin-left: 0 ; margin-top: 85px ; }
+#bottom-left-content-1 { width: 303px ; height: 82px; position: absolute ; margin-left: 0 ; margin-top: 265px ; }
+#top-center-content-1 { width: 303px ; height: 85px ; position: absolute ; margin-left: 0 ; margin-top: 0 ;} 
+#center-center-content-1 { width: 303px ; height: 180px ; position: absolute ; margin-left: 0 ; margin-top: 85px ; }
+#bottom-center-content-1 { width: 303px ; height: 82px ; position: absolute ; margin-left: -1px ; margin-top: 265px ; }
+#top-right-content-1 { width: 303px ; height: 85px ; position: absolute ; margin-left: 0 ; margin-top: 0 ; }
+#center-right-content-1 { width: 303px ; height: 180px  position: absolute ; margin-left: 0 ; margin-top: 85px ; }
+#bottom-right-content-1 { width: 303px ; height: 82px ; margin-left: -1px ; margin-top: 265px ; }
+#textarea-tlc-1 { width: 253px ; height: 75px ; position: absolute ; margin-left: 25px ; margin-top: 5px ; }  
+#textarea-tcc-1 { width: 253px ; height: 75px ; position: absolute ; margin-left: 25px ; margin-top: 5px ; }
+#textarea-trc-1 { width: 253px ; height: 75px ; position: absolute ; margin-left: 25px ; margin-top: 5px ; }
+#textarea-tlc-1 h1 { font-size: 40px ;margin-top:#1d1d1d 0 ; color: #78bc00 ; font-family: sans-serif ; margin-top: 0 ; }
+#textarea-tcc-1 h1 { font-size: 40px ;margin-top: 0 ; color: #00c2fc ; font-family: sans-serif ; }
+#textarea-trc-1 h1 { font-size: 40px ;margin-top: 0 ; color: #dc00fd ; font-family: sans-serif ; }
+.format-txt1 { font-size: 28px ; margin-top: -33px ; color: #fdfdfd ; font-family: sans-serif ; }
+#textarea-clc-1 { width: 253px ; height: 160px ; position: absolute ; margin-left: 25px ; margin-top: 10px ; }
+#textarea-ccc-1 { width: 253px ; height: 160px ; position: absolute ; margin-left: 25px ; margin-top: 10px ; }
+#textarea-crc-1 { width: 253px ; height: 160px ; position: absolute ; margin-left: 25px ; margin-top: 10px ; }
+.row1 { width: 253px ; height: 32px ; position: absolute ; margin-top: 0 ; border-bottom-style: solid ; border-bottom-color: #1d1d1d ; border-width: 1px ; }
+.row2 { width: 253px ; height: 32px ; position: absolute ; margin-top: 32px ; border-bottom-style: solid ; border-bottom-color: #1d1d1d ; border-width: 1px ; }
+.row3 { width: 253px ; height: 32px ; position: absolute ; margin-top: 64px ; border-bottom-style: solid ;  border-bottom-color: #1d1d1d ; border-width: 1px ; }
+.row4 { width: 253px ; height: 32px ; position: absolute ; margin-top: 96px ; border-bottom-style: solid ; border-bottom-color: #1d1d1d ; border-width: 1px ; }
+.row5 { width: 253px ; height: 32px ; position: absolute ; margin-top: 128px ;  }
+.left { font-size: 10px ; position: absolute ; color: #888888 ;  }
+.right { font-size: 10px ; float: right; color: #888888 ; }  
+.details-bay { width: 170px ; height: 46px ; position: absolute ; margin-top: 19px ; margin-left: 67px ; }
+#details1 { width: 102px ; height: 46px ; background-image: url('images/small-details.png') ; }
+#bay1 { width: 68px ; height: 46px ; background-image: url('images/bay-small.png') ;position: absolute; margin-top: -46px ; margin-left: 102px ; }
+#details2 { width: 102px ; height: 46px ; background-image: url('images/medium-details.png') ; }
+#bay2 { width: 68px ; height: 46px ; background-image: url('images/bay-medium.png') ;position: absolute; margin-top: -46px ; margin-left: 102px ; }
+#details3 { width: 102px ; height: 46px ; background-image: url('images/unlimited-details.png') ;  }
+#bay3 { width: 68px ; height: 46px ; background-image: url('images/bay-unlimited.png') ;position: absolute; margin-top: -46px ; margin-left: 102px ; }
+#left-content-2 { width: 606px ; height: 338px ; position: absolute ; margin-left: 44px ; }
+#right-content-2 { width: 303px ; height: 338px  ; position: absolute  ; margin-left: 650px ;}
+#top-left-content-2 { width: 350px ; height: 32px ; position: absolute ; margin-left: 24px ; }
+#center-left-content-2 { width: 528px ; height: 161px ; position: absolute ; margin-top: 56px ; margin-left: 24px ; }
+#bottom-left-content-2 { width: 528px ; height: 44px ; position: absolute ; margin-top: 217px ; margin-left: 24px ; }
+#top-left-content-2 h1 { font-family: Myriad Pro ; font-size: 25px ; margin-top: -3px ; color: #ffffff ; }
+#search { width: 169px ; height: 45px ; border-width: 2px ; border-color: #1d1d1d ; border-style: solid ; background-color: #000000 ; }
+#top-right-content-2 { width: 300px ; height: 32px ; position: absolute ; margin-left: 23px  ; }
+#top-right-content-2 h1 { font-family: Myriad Pro ; font-size: 25px ; margin-top: -2px ; color: #ffffff ; }
+#check-domain { width: 172px ; height: 44px ; float: right; background-image: url('images/check-domain.png'); }
+#textarea2 { width: 280px ; height: 161px; margin-left: 23px ; position: absolute ; margin-top: 56px ;}
+#textarea2 h3 { font-family: Myriad Pro ; font-size: 19px ;color: #ffffff ;margin-top: -6px ; }
+#textarea2 p { font-family: Myriad Pro ; font-size: 17px ;margin-top: -12px ; color: #888888 ; }
+#textarea2 a { color: #dd00ff ;}
+#left-bottom-left-content-2 { width: 310px ; height: 44px ; float: left; }
+#left-bottom-left-content-2 ul { list-style: none ; padding: 0 ; margin-top: 12px ; font-family: Myriad Pro ; font-size: 13px ;}
+#left-bottom-left-content-2 a { color: #ffffff ;}
+.first-item { display: inline ; border-left: none ; padding-left: 0 ; }
+.other-items {  display: inline ; border-left: 2px solid ; padding-left: 0.3em ; }
+#right-center-left-content-2 { width: 305px ; height: 161px ; position: absolute; margin-left: 200px ; margin-top: -51px ; }
+#col1-right-center-left-content-2 { width: 76.5px ; height: 161px ; position: absolute ; }
+#col2-right-center-left-content-2 { width: 76.5px ; height: 161px ; position: absolute ;  margin-left: 76.5px ; }
+#col3-right-center-left-content-2 { width: 76.5px ; height: 161px ; position: absolute ; margin-left: 153px ; }
+#col4-right-center-left-content-2 { width: 76.5px ; height: 161px ; position: absolute ; margin-left:228.5px ; } 
+.chck-left input {  margin-bottom: 12px ; font-family: Myriad Pro ; }
+.chck-right input {  margin-bottom: 12px ; font-family: Myriad Pro ; } 
+.chck-left { color: #1d1d1d ; }
+.chck-right { color: #1d1d1d ; }
+ 
+ 
