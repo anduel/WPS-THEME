@@ -1,5 +1,5 @@
 body { background-color: #f1f1f1 ; }
-#container { width: 1000px ; height: 1481px ; margin: auto ; background-color: #d7d7d7 ; }
+#container { width: 1000px ;  margin: auto ; background-color: #d7d7d7 ; }
 #header { width: 1000px ; height: 600px ; }
 #first-bar { width: 1000px ; height: 55px ; background-color: #111111 ; }
 #left-first-bar { margin: 13.5px auto 13.5px 78px ; width: 105px ; height: 28px ; position: absolute;  }
@@ -75,8 +75,8 @@ body { background-color: #f1f1f1 ; }
 #bay2 { width: 68px ; height: 46px ; background-image: url('images/bay-medium.png') ;position: absolute; margin-top: -46px ; margin-left: 102px ; }
 #details3 { width: 102px ; height: 46px ; background-image: url('images/unlimited-details.png') ;  }
 #bay3 { width: 68px ; height: 46px ; background-image: url('images/bay-unlimited.png') ;position: absolute; margin-top: -46px ; margin-left: 102px ; }
-#left-content-2 { width: 606px ; height: 338px ; position: absolute ; margin-left: 44px ; }
-#right-content-2 { width: 303px ; height: 338px  ; position: absolute  ; margin-left: 650px ;}
+#left-content-2 { width: 606px ; height: 338px ; position: absolute ; margin-left: 44px ; margin-top: 25px ; } 
+#right-content-2 { width: 303px ; height: 338px  ; position: absolute  ; margin-left: 650px ; margin-top: 25px ; }
 #top-left-content-2 { width: 350px ; height: 32px ; position: absolute ; margin-left: 24px ; }
 #center-left-content-2 { width: 528px ; height: 161px ; position: absolute ; margin-top: 56px ; margin-left: 24px ; }
 #bottom-left-content-2 { width: 528px ; height: 44px ; position: absolute ; margin-top: 217px ; margin-left: 24px ; }
@@ -103,5 +103,90 @@ body { background-color: #f1f1f1 ; }
 .chck-right input {  margin-bottom: 12px ; font-family: Myriad Pro ; } 
 .chck-left { color: #1d1d1d ; }
 .chck-right { color: #1d1d1d ; }
- 
- 
+#content-1-hosting { width: 1000px ; height: 447px ; background-color: #111111 ; position: relative ; }
+#content-2-hosting { width: 1000px ; height: 189px ; background-color: #000000 ; position: relative ; } 
+#content-1-container { width: 868px ; height: 399px ; position: absolute ; margin-top: 27px ; margin-left: 62px ; }
+#top-content-1-container { width: 868px ; height: 60px ; position: absolute ; }
+#first-top-content-1-container { width: 327px ; height: 60px ; position: absolute ; border-bottom-style: solid ; border-bottom-color: #1d1d1d ; border-right-color: #1d1d1d ; border-right-style: solid; border-width: 1px ; }
+#second-top-content-1-container { width: 180px ; height: 60px ; position: absolute ; margin-left: 327px ; border-bottom-style: solid ; border-bottom-color: #1d1d1d ; border-right-color: #1d1d1d ; border-right-style: solid; border-width: 1px ; }
+#third-top-content-1-container { width: 180px ; height: 60px ; position: absolute ; margin-left: 507px ; border-bottom-style: solid ; border-bottom-color: #1d1d1d ; border-right-color: #1d1d1d ; border-right-style: solid; border-width: 1px ;  }
+#fourth-top-content-1-container { width: 180px ; height: 60px ; position: absolute ; margin-left: 687px ; border-bottom-style: solid ; border-bottom-color: #1d1d1d ; border-width: 1px ; }
+#first-bottom-content-1-container { width: 327px ; height: 339px ; position: absolute ; margin-top: 60px ; border-right-style: solid ; border-right-color: #1d1d1d ; border-width: 1px ; }
+#second-bottom-content-1-container { width: 180px ; height: 339px ; position: absolute ; margin-left: 327px ; margin-top: 60px ; border-right-style: solid ; border-right-color: #1d1d1d ; border-width: 1px ; }
+#third-bottom-content-1-container { width: 180px ; height: 339px ; position: absolute ; margin-left: 507px ; margin-top: 60px ; border-right-style: solid ; border-right-color: #1d1d1d ; border-width: 1px ; }
+#fourth-bottom-content-1-container { width: 180px ; height: 339px ; position: absolute ; margin-left: 687px ; margin-top: 60px ; }
+#first-top-content-1-container h2 { margin-left: 25px ; color: #e9e9e9 ; }
+#second-top-content-1-container h2 { margin-left: 53px ; color: #78bc00 ; }
+#third-top-content-1-container h2 { margin-left: 34px ; color: #00c2fc ; }
+#fourth-top-content-1-container h2 { margin-left: 28px ; color: #dc00fd ; }
+#first-bottom-content-1-container .hosting-plan { width: 268px ; height: 20px ; margin-left: 25px ; margin-top: 12.5px ; }
+#second-bottom-content-1-container .small { width: 100px ; height: 20px ; margin-left: 53px ; margin-top: 11px ; }
+#third-bottom-content-1-container .medium { width: 100px ; height: 20px ; margin-left: 54px ; margin-top: 11px ; }
+#fourth-bottom-content-1-container .unlimited { width: 100px ; height: 20px ; margin-left: 54px ; margin-top: 11px ; }
+.line1 { font-size: 13px ; font-family: Myriad Pro ; margin-left: 14px ; color: #888888 ;  }
+.line2 { font-size: 13px ; font-family: Myriad Pro ; margin-left: 10px ;  color: #888888 ;  }
+.line3 { font-size: 13px ; font-family: Myriad Pro ; margin-left: 36px ;  color: #888888 ;   } 
+.line4 { font-size: 13px ; font-family: Myriad Pro ; margin-left: 26px ;  color: #888888 ;  } 
+.line8 { font-size: 13px ; font-family: Myriad Pro ; margin-left: 44px ;  color: #888888 ;  }
+.unlimited-h3 { font-size: 13px ; font-family: Myriad Pro ; margin-left: 10px ;  color: #888888 ;  }
+.anytime { font-size: 13px ; font-family: Myriad Pro ; margin-left: 17px ;  color: #888888 ;  }
+#shortcut1 { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img1.png') ; }
+#shortcut2 { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img2.png') ; }
+#shortcut3 { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img3.png') ; }
+#shortcut4 { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img4.png') ; }
+#shortcut5 { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img5.png') ; }
+#shortcut6 { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img6.png') ; }
+#shortcut7 { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img7.png') ; }
+#shortcut8 { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img8.png') ; }
+#shortcut9 { width: 20px ; height: 20px ;  position: absolute ; background-image: url('images/img9.png') ; }
+#shortcut10 { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img10.png') ; }
+.right-txt { width: 248px ; height: 20px ; position: absolute ; margin-left: 20px ; }
+.right-txt h3 { font-size: 13px ; font-family: Myriad Pro ; color: #888888 ; margin-top: 0 ;margin-left: 5px ; }
+.green-check { width: 18px ; height: 15px ; position: absolute ; margin-left: 39px ; margin-top: 2.3px ; background-image: url('images/green-check.png') ; }
+.blue-check { width: 18px ; height: 15px ; position: absolute ; margin-left: 39px ; margin-top: 2.3px ; background-image: url('images/blue-check.png') ; }
+.red-check { width: 18px ; height: 15px ; position: absolute ; margin-left: 39px ; margin-top: 2.3px ; background-image: url('images/red-check.png') ; }
+#content-2-container { width: 868px ; height: 126px ; position: absolute ; margin-top: 27px ; margin-left: 62px ; }
+#first-content-2-container { width: 327px ; height: 126px ; position: absolute ; }
+#second-content-2-container { width: 180px ; height: 126px ; position: absolute ; margin-left: 327px ; }
+#third-content-2-container { width: 180px ; height: 126px ; position: absolute ; margin-left: 507px ; }
+#fourth-content-2-container { width: 180px ; height: 126px ; position: absolute ; margin-left: 687px ; }
+.first-content-2-txt { width: 236px ; height: 25px ; margin-left: 25px ; margin-top: 12.5px ;  }
+.container-of-content-2-container { width: 165px ; height: 120px ; margin-left: 7.5px ;margin-top: 3px ; }
+#top-second-content-2-container { width: 165px ; height: 60px ; position: absolute ; }
+#bottom-second-content-2-container { width: 165px ; height: 60px ; position: absolute ; margin-top: 60px ; }
+#top-third-content-2-container { width: 165px ; height: 60px ; position: absolute ; }
+#bottom-third-content-2-container { width: 165px ; height: 60px ; position: absolute ; margin-top: 60px ; }
+#top-fourth-content-2-container { width: 165px ; height: 60px ; position: absolute ; }
+#bottom-fourth-content-2-container { width: 165px ; height: 60px ; position: absolute ; margin-top: 60px ; }
+#top-second-txt1 { width: 55px ; height: 60px ; position: absolute ; }
+#top-second-txt2 { width: 55px ; height: 60px ; position: absolute ; margin-left: 55px ; }
+#top-second-txt3 { width: 55px ; height: 60px ; position: absolute ; margin-left: 110px ; }
+#top-of-top-second-txt3 { width: 55px ; height: 30px ; position: absolute ; }
+#bottom-of-top-second-txt3 { width: 55px ; height: 30px ; position: absolute ; margin-top: 30px ; }
+#top-third-txt1 { width: 35px ; height: 60px ; position: absolute ; }
+#top-third-txt2 { width: 75px ; height: 60px ; position: absolute ; margin-left: 34px ; }
+#top-third-txt3 { width: 55px ; height: 60px ; position: absolute ; margin-left: 110px ; }
+#top-of-top-third-txt3 { width: 55px ; height: 30px ; position: absolute ; }
+#bottom-of-top-third-txt3 { width: 55px ; height: 30px ; position: absolute ; margin-top: 30px ; }
+#top-fourth-txt1 { width: 55px ; height: 60px ; position: absolute ; }
+#top-fourth-txt2 { width: 75px ; height: 60px ; position: absolute ; margin-left: 35px ; }
+#top-fourth-txt3 { width: 55px ; height: 60px ; position: absolute ; margin-left: 110px ; }
+#top-of-top-fourth-txt3 { width: 55px ; height: 30px ; position: absolute ; }
+#bottom-of-top-fourth-txt3 { width: 55px ; height: 30px ; position: absolute ; margin-top: 30px ; }
+#top-second-txt1 h2 { font-size: 30px ; font-family: Myriad Pro ; margin-left: 32px ; margin-top: -5px ; color: #78bc00 ; } 
+#top-second-txt2 h1 { font-size: 65px ; font-family: Myriad Pro ; margin-left: 6px ; margin-top: -5px ; color: #78bc00 ;  }
+#top-of-top-second-txt3 h2 { font-size: 30px ; font-family: Myriad Pro ; margin-top: -5px ; color: #78bc00 ; }
+#bottom-of-top-second-txt3 h2 { font-size: 14px ; font-family: Myriad Pro ; margin-top: 10px ; color: #78bc00 ; }
+#top-third-txt1 h2 { font-size: 30px ; font-family: Myriad Pro ; margin-left: 12px ; margin-top: -5px ; color: #00c2fc ; } 
+#top-third-txt2 h1 { font-size: 65px ; font-family: Myriad Pro ; margin-left: -9px ; margin-top: -5px ; color: #00c2fc ;  }
+#top-of-top-third-txt3 h2 { font-size: 30px ; font-family: Myriad Pro ; margin-top: -5px ; color: #00c2fc ; }
+#bottom-of-top-third-txt3 h2 { font-size: 14px ; font-family: Myriad Pro ; margin-top: 10px ; color: #00c2fc ; }
+#top-fourth-txt1 h2 { font-size: 30px ; font-family: Myriad Pro ; margin-left: 12px ; margin-top: -5px ; color: #dc00fd ; } 
+#top-fourth-txt2 h1 { font-size: 65px ; font-family: Myriad Pro ; margin-left: -9px ; margin-top: -5px ; color: #dc00fd ;  }
+#top-of-top-fourth-txt3 h2 { font-size: 30px ; font-family: Myriad Pro ; margin-top: -5px ; color: #dc00fd ; }
+#bottom-of-top-fourth-txt3 h2 { font-size: 14px ; font-family: Myriad Pro ; margin-top: 10px ; color: #dc00fd ; }
+.arrow { width: 20px ; height: 15px ; position: absolute; background-image: url('images/arrow.png') ; margin-top: 5px ; }
+.right-first-content-2-txt h2 { font-size: 18px ; font-family: Myriad Pro ; margin-left: 30px ; color: #989898 ; padding-top: 2px ; }
+#green-sign-up {  width: 163px ; height: 44px ; margin-top: 8px ; margin-left: 1px ; background-image: url('images/green-sign-up.png') ; }
+#blue-sign-up {  width: 163px ; height: 44px ; margin-top: 8px ; margin-left: 1px ; background-image: url('images/blue-sign-up.png') ; } 
+#red-sign-up {  width: 163px ; height: 44px ; margin-top: 8px ; margin-left: 1px ; background-image: url('images/red-sign-up.png') ; } 
