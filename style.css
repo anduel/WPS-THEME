@@ -1,3 +1,11 @@
+/*
+Theme Name: WPS-THEME
+Theme URI: http://###/
+Description: A basic HTML5 responsive WordPress theme built by <a href="http://www.###</a>.
+Version: 0.2
+Author: WPS
+Author URI: http://###/
+*/
 body { background-color: #f1f1f1 ; }
 #container { width: 1000px ;  margin: auto ; background-color: #d7d7d7 ; }
 #header { width: 1000px ; height: 600px ; }
@@ -190,3 +198,95 @@ body { background-color: #f1f1f1 ; }
 #green-sign-up {  width: 163px ; height: 44px ; margin-top: 8px ; margin-left: 1px ; background-image: url('images/green-sign-up.png') ; }
 #blue-sign-up {  width: 163px ; height: 44px ; margin-top: 8px ; margin-left: 1px ; background-image: url('images/blue-sign-up.png') ; } 
 #red-sign-up {  width: 163px ; height: 44px ; margin-top: 8px ; margin-left: 1px ; background-image: url('images/red-sign-up.png') ; } 
+#content-1-features { width: 1000px ; height: 290px ; background-color: #111111 ; position: relative ; }
+#content-2-features { width: 1000px ; height: 480px ; background-color: #000000 ; position: relative ; } 
+#content-1-features-container { width: 836px ; height:212px ; position: absolute ; margin-top: 39px ; margin-left: 82px ; }
+#top-content-1-features-container { width: 385px ; height: 34px ; position: absolute ; }
+#top-content-1-features-container h2 { font-size: 22px ; font-family: Myriad Pro ; color: #ffffff ; margin-top: 1px ; }
+#center-content-1-features-container { width: 836px ; height: 62px ; position: absolute ; margin-top: 50px ; }
+#center-content-1-features-container p { font-size: 12px ; font-family: Myriad Pro ; color: #888888 ; }
+#bottom-content-1-features-container { width: 836px ;height: 90px ; position: absolute; margin-top: 122px ; }
+#left-bottom-content-1-features-container {  width: 278px ; height: 90px ; position: absolute ; }
+#center-bottom-content-1-features-container {  width: 278px ; height: 90px ; position: absolute ; margin-left: 278px ; }
+#right-bottom-content-1-features-container {  width: 278px ; height: 90px ; position: absolute ; margin-left: 556px ; }
+#top-left-bottom-content-1-features-container { width: 278px ; height: 20px ; position: absolute ; margin-top: 10px ; }
+#center-left-bottom-content-1-features-container { width: 278px ; height: 20px ; position: absolute ; margin-top: 40px ; }
+#bottom-left-bottom-content-1-features-container { width: 278px ; height: 20px ; position: absolute ; margin-top: 70px ; }
+#top-center-bottom-content-1-features-container { width: 278px ; height: 20px ; position: absolute ; margin-top: 10px ; }
+#center-center-bottom-content-1-features-container { width: 278px ; height: 20px ; position: absolute ; margin-top: 40px ; }
+#bottom-center-bottom-content-1-features-container { width: 278px ; height: 20px ; position: absolute ; margin-top: 70px ; }
+#top-right-bottom-content-1-features-container { width: 278px ; height: 20px ; position: absolute ; margin-top: 10px ; }
+#center-right-bottom-content-1-features-container { width: 278px ; height: 20px ; position: absolute ; margin-top: 40px ; }
+#bottom-right-bottom-content-1-features-container { width: 278px ; height: 20px ; position: absolute ; margin-top: 70px ; }
+#top-left-bottom-content-1-features-container .shortcut { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img1.png') ; }
+#center-left-bottom-content-1-features-container .shortcut { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img5.png') ; }
+#bottom-left-bottom-content-1-features-container .shortcut { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img6.png') ; }
+#top-center-bottom-content-1-features-container .shortcut { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img4.png') ;}
+#center-center-bottom-content-1-features-container .shortcut { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img8.png') ; }
+#bottom-center-bottom-content-1-features-container .shortcut { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img9.png') ; }
+#top-right-bottom-content-1-features-container .shortcut { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img2.png') ; }
+#center-right-bottom-content-1-features-container .shortcut { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img3.png') ; }
+#bottom-right-bottom-content-1-features-container .shortcut { width: 20px ; height: 20px ; position: absolute ; background-image: url('images/img7.png') ; }
+#top-left-bottom-content-1-features-container .text { width: 258px ; height: 20px ; position: absolute ; margin-left: 20px ; }
+#center-left-bottom-content-1-features-container .text { width: 258px ; height: 20px ; position: absolute ; margin-left: 20px ; }
+#bottom-left-bottom-content-1-features-container .text { width: 258px ; height: 20px ; position: absolute ; margin-left: 20px ; }
+#top-center-bottom-content-1-features-container .text { width: 258px ; height: 20px ; position: absolute ; margin-left: 20px ; }
+#center-center-bottom-content-1-features-container .text { width: 258px ; height: 20px ; position: absolute ; margin-left: 20px ; }
+#bottom-center-bottom-content-1-features-container .text { width: 258px ; height: 20px ; position: absolute ; margin-left: 20px ; }
+#top-right-bottom-content-1-features-container .text { width: 258px ; height: 20px ; position: absolute ; margin-left: 20px ; }
+#center-right-bottom-content-1-features-container .text { width: 258px ; height: 20px ; position: absolute ; margin-left: 20px ; }
+#bottom-right-bottom-content-1-features-container .text { width: 258px ; height: 20px ; position: absolute ; margin-left: 20px ; }
+#top-left-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; }
+#center-left-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; }
+#bottom-left-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; }
+#top-center-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; }
+#center-center-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; }
+#bottom-center-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; }
+#top-right-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; } 
+#center-right-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; }
+#bottom-right-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; }
+#content-2-features-container { width: 812px ; height: 401px ; position: absolute ; margin-left: 82px ; margin-top: 39px ; }
+#left-content-2-features-container { width: 406px ; height: 401px ; position: absolute ; }
+#right-content-2-features-container { width: 406px ; height: 401px ; position: absolute ; margin-left: 446px ; }
+.left-class { width:280px ; height: 401px ; position: absolute ; }
+.right-class { width: 126px ; height: 401px ; position: absolute ; margin-left: 280px ; }
+.top-left-class { width: 280px ; height: 200.5px ; position: absolute ; }
+.bottom-left-class { width: 280px ; height: 200.5px ; position: absolute ; margin-top: 220.5px ; }
+.top-right-class { width: 126px ; height: 200.5px ; position: absolute ; }
+.bottom-right-class { width: 126px ; height: 200.5px ; position: absolute ; margin-top: 220.5px ;  }
+.first-top-lr-class { width: 280px ; height: 20px ; position: absolute ; }
+.first-top-lr-class h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #ffffff ; }
+.first-top-lr-class-2 { width: 126px ; height: 20px ; position: absolute ; }
+.txt1  { width: 280px ; height: 20px  ; position: absolute ; margin-top: 2.5px ; }
+.txt2  { width: 280px ; height: 20px  ; margin-top: 25px ; position: absolute ; }
+.txt3  { width: 280px ; height: 20px  ; margin-top: 47.5px ; position: absolute ; }
+.txt4  { width: 280px ; height: 20px  ; margin-top: 70px ; position: absolute ; }
+.txt5  { width: 280px ; height: 20px  ; margin-top: 92.5px ; position: absolute ; }
+.txt6  { width: 280px ; height: 20px  ; margin-top: 115px ; position: absolute ; }
+.txt7  { width: 280px ; height: 20px  ; margin-top: 137.5px ; position: absolute ; }
+.txt8  { width: 280px ; height: 20px  ; margin-top: 160px ; position: absolute ; }
+.txt1 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; }
+.txt2 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; }
+.txt3 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; }
+.txt4 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; }
+.txt5 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; }
+.txt6 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; }
+.txt7 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; }
+.txt8 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; }
+.txt-container { width: 280px ; height: 180.5px ; margin-top: 20px ; position: absolute ; }
+.txt1-2  { width: 126px ; height: 20px  ; position: absolute ; margin-top: 2.5px ; }
+.txt2-2  { width: 126px ; height: 20px  ; margin-top: 25px ; position: absolute ; }
+.txt3-2  { width: 126px ; height: 20px  ; margin-top: 47.5px ; position: absolute ; }
+.txt4-2  { width: 126px ; height: 20px  ; margin-top: 70px ; position: absolute ; }
+.txt5-2  { width: 126px ; height: 20px  ; margin-top: 92.5px ; position: absolute ; }
+.txt6-2  { width: 126px ; height: 20px  ; margin-top: 115px ; position: absolute ; }
+.txt7-2  { width: 126px ; height: 20px  ; margin-top: 137.5px ; position: absolute ; }
+.txt8-2  { width: 126px ; height: 20px  ; margin-top: 160px ; position: absolute ; }
+.txt-container-2 { width: 126px ; height: 180.5px ; margin-top: 20px ; }
+.ok { width: 18px ; height: 15px ; position: absolute ;background-image: url('images/red-check.png') ; margin-top: 2px ; margin-left: 54px ;  }
+.txt1-2 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; margin-left: 28px ; }
+.txt2-2 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; margin-left: 28px ; }
+.txt6-2 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; margin-left: 28px ; }
+.txt7-2 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; margin-left: 28px ; }
+.txt8-2 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; margin-left: 28px ; }
+.txt4-2 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; margin-left: 12px ; }

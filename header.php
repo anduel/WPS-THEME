@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <head>
 <title></title>
-<link type="text/css" href="style.css" rel="stylesheet" media="screen"/> 
+<link type="text/css" href="<?php bloginfo('template_url');?>/style.css" rel="stylesheet" media="screen"/> 
 </head>
 <body>
 

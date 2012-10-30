@@ -188,7 +188,7 @@
 			<div id="right-content-2"> <!-- div right-content-2 -->
 				<div id="top-right-content-2"> <!-- div top-right-content-2 -->
 					<h1>Get Started!</h1>
-				</div> <!-- end of div to<a href="http://#">p-right-content-2 -->
+				</div> <!-- end of div top-right-content-2 -->
 				<div id="bottom-right-content-2"> <!-- div bottom-right-content-2 -->
 					<div id="textarea2">	<!-- div textarea2 -->			
 						<h3>Don't have hosting website yet ?</h3>
