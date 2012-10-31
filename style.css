@@ -246,7 +246,7 @@ body { background-color: #f1f1f1 ; }
 #center-right-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; }
 #bottom-right-bottom-content-1-features-container .text h2 { font-size: 14px ; font-family: Myriad Pro ; margin-left: 10px ; color: #888888 ; margin-top: 2px ; }
 #content-2-features-container { width: 812px ; height: 401px ; position: absolute ; margin-left: 82px ; margin-top: 39px ; }
-#left-content-2-features-container { width: 406px ; height: 401px ; position: absolute ; }
+#left-content-2-features-container { width: 406px ; height: 401px ; position: absolute ;  }
 #right-content-2-features-container { width: 406px ; height: 401px ; position: absolute ; margin-left: 446px ; }
 .left-class { width:280px ; height: 401px ; position: absolute ; }
 .right-class { width: 126px ; height: 401px ; position: absolute ; margin-left: 280px ; }
@@ -290,3 +290,46 @@ body { background-color: #f1f1f1 ; }
 .txt7-2 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; margin-left: 28px ; }
 .txt8-2 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; margin-left: 28px ; }
 .txt4-2 h2 { font-size: 12px ; font-family: Myriad Pro ; margin-top: 2px ; color: #888888 ; margin-left: 12px ; }
+#content-1-about { width: 1000px ; height: 340px ;  background-color: #111111 ; position: relative ; }
+#content-2-about { width: 1000px ; height: 468px ; background-color: #000000 ; position: relative ; } 
+#content-1-about-container { width: 900px ; height: 250px ; margin-top: 45px ; margin-left: 30px ; position: absolute; }
+#top-content-1-about-container { width: 285px ; height: 35px ; position: absolute ; margin-left: 60px ; }
+#center-content-1-about-container { width: 900px ; height: 128px ; position: absolute ; margin-top: 35px ; }
+#bottom-content-1-about-container { width: 830px ; height: 75px ; position: absolute ; margin-top: 167px ; margin-left: 60px ; }
+#img-center-content-1-about-container { width: 287px ; height: 110px ; position: absolute ; margin-top: 9px ; background-image: url('images/img11.png') ; }
+#tekst-center-content-1-about-container { width: 613px ; height: 128px  ; position: absolute ; margin-left: 287px ; }
+#top-content-1-about-container h2 { font-size: 22px ; font-family: Myriad Pro ; color: #ffffff ; margin-top: 2px ; }
+#tekst-center-content-1-about-container p { font-size: 14px ; font-family: Myriad Pro ; color: #888888 ; }  
+#bottom-content-1-about-container p { font-size: 14px ; font-family: Myriad Pro ; color: #888888 ; margin-top: 2px ; }
+#content-2-about-container { width: 843px ; height: 383px ; position: absolute ; margin-left: 79px ; margin-top: 42.5px ; }
+#left-content-2-about-container { width: 569px ; height: 383px ; position: absolute ;  border-right-style: solid ; border-right-color: #1d1d1d ; border-width: 1px ; }
+#right-content-2-about-container { width: 269px ; height: 383px ; position: absolute ; margin-left: 589px ; }
+#first-left-content-2-about-container { width: 100px ; height: 35px ; position: absolute ; margin-top: 12px ; }
+#second-left-content-2-about-container { width: 535px ; height: 100px ; position: absolute ; margin-top: 67px ; }
+#third-left-content-2-about-container { width: 415px ; height: 100px ; position: absolute ; margin-top: 187px ; }
+#fourth-left-content-2-about-container { width: 535px ; height: 77px ; position: absolute ; margin-top: 306px ; }
+#first-left-content-2-about-container h2 { font-size: 22px ; font-family: Myriad Pro ; color: #ffffff ; margin-top: 2px ; }
+#second-left-content-2-about-container p { font-size: 14px ; font-family: Myriad Pro ; color: #888888 ; } 
+#fourth-left-content-2-about-container p { font-size: 14px ; font-family: Myriad Pro ; color: #888888 ; margin-top: 1px ; }
+#text-container-left-about-1 { width: 415px ; height: 20px ; position: absolute ; } 
+#text-container-left-about-2 { width: 415px ; height: 20px ; position: absolute ; margin-top: 20px ; } 
+#text-container-left-about-3 { width: 415px ; height: 20px ; position: absolute ; margin-top: 40px ; }
+#text-container-left-about-4 { width: 415px ; height: 20px ; position: absolute ; margin-top: 60px ; }  
+#text-container-left-about-5 { width: 415px ; height: 20px ; position: absolute ; margin-top: 80px ; } 
+.icon { width: 18px ; height: 15px ; margin-top: 3px ; background-image: url('images/red-check.png') ;  }
+.text-left-about { width: 390px ; height: 15px ; margin-left: 25px ; position: absolute; margin-top: -15px ; }
+.text-left-about h2 { font-size: 14px ; font-family: Myriad Pro ; color: #dc00fd ; margin-top: -2px ; text-decoration: underline; }
+#first-right-content-2-about-container { width: 200px ; height: 35px ; position: absolute ; margin-top: 12px ; }
+#second-right-content-2-about-container { width: 140px ; height: 60px ; position: absolute ; margin-top: 62px ; }
+#third-right-content-2-about-container { width: 269px ; height: 75px ; position: absolute ; margin-top: 137px ; }
+#fourth-right-content-2-about-container { width: 140px ; height: 60px ; position: absolute ; margin-top: 227px ; }
+#fifth-right-content-2-about-container { width: 269px ; height: 75px ; position: absolute ; margin-top: 303px ; }
+#first-right-content-2-about-container h2 { font-size: 22px ; font-family: Myriad Pro ; color: #ffffff ; margin-top: 2px ; }
+.txt-about1 { width: 140px ; height: 20px ; position: absolute; }
+.txt-about2 { width: 140px ; height: 20px ; position: absolute; margin-top: 20px ; }
+.txt-about3 { width: 140px ; height: 20px ; position: absolute; margin-top: 40px ; }
+.txt-about1 h2 { font-size: 13px ; font-family: Myriad Pro ; color: #fdfdfd ; margin-top: 2px ; }
+.txt-about2 h2 { font-size: 13px ; font-family: Myriad Pro ; color: #b700d3 ; margin-top: 2px ; text-decoration: underline; }
+.txt-about3 h2 { font-size: 13px ; font-family: Myriad Pro ; color: #434343 ; margin-top: 2px ; }
+#third-right-content-2-about-container p { font-size: 13px ; font-family: Myriad Pro ; color: #888888 ; margin-top: 2px ; }
+#fifth-right-content-2-about-container p { font-size: 13px ; font-family: Myriad Pro ; color: #888888 ; margin-top: 2px ; }
